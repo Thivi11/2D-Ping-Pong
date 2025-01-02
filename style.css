@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+#game-area {
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    background-color: #e0e0e0;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#target {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#scoreboard {
+    text-align: center;
+}
+
+#scoreboard p {
+    margin: 5px 0;
+    font-size: 18px;
+}
